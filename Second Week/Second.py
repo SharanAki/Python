@@ -1,1 +1,1 @@
-print("op")
+print(33 + 36)
