@@ -10,6 +10,10 @@ def subtract():
     result = int(e1.get()) - int(e2.get())
     l3.config(text=result)   
     
+def multiply():
+     result = int(e1.get()) * int(e2.get())
+     l3.config(text=result)
+    
 root = Tk() 
 root.title("Addition")
 root.geometry("300x200")
@@ -33,5 +37,8 @@ b1.grid(row=3, column=0)
 
 b2 = Button(root, text="Subtact", command=subtract)
 b2.grid(row=3, column=1)
+
+b3 = Button(root, text ="Multiply", command=multiply)
+b3.grid(row=5,column=0)
                                         
 root.mainloop()                         
