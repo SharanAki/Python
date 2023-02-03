@@ -1,5 +1,0 @@
-f = open('data1.txt','w')
-f.write("GOOD MORNING")
-f.close()
-f = open('data1.txt')
-print(f.read())
