@@ -1,4 +1,19 @@
 {
     "editor.fontSize": 18,
-    "jupyter.sendSelectionToInteractiveWindow": true
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Sharan",
+            "database": "world",
+            "username": "sharan",
+            "password": "password"
+        }
+    ]
 }
