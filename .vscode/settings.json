@@ -1,6 +1,5 @@
 {
     "editor.fontSize": 18,
-    "jupyter.sendSelectionToInteractiveWindow": true,
     "sqltools.connections": [
         {
             "mysqlOptions": {
@@ -15,5 +14,6 @@
             "username": "sharan",
             "password": "password"
         }
-    ]
+    ],
+    "jupyter.interactiveWindow.textEditor.executeSelection": true
 }
